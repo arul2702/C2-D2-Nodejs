@@ -130,6 +130,7 @@ const studentModel=mongoose.model('student',studentSchema);
 //     })
 
 // })
+// iygvuyuyt
 
 app.get('/student',(req,res)=>{
     return studentModel.find()
